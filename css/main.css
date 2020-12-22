@@ -161,14 +161,42 @@ p {
 
 /* ====== Start Media Queries(Add a Breakpoint) ======*/
 
-/* If the screen size is 700px or less */
+/* If the screen size is 700px or up */
 
-/* @media only screen and (max-width: 700px) {
-} */
+@media only screen and (min-width: 700px) {
+  .grid {
+    display: grid;
+    /* grid-template-columns: 1fr repeat(2, 1fr) 1fr; */
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+  }
 
-/* If the screen size is 500px or less */
+  #section-a .content-text {
+    columns: 2;
+    column-gap: 2em;
+  }
 
-/* @media (max-width: 500px) {
-} */
+  #section-a .content-text p {
+    padding-top: 0;
+  }
+
+  .content-wrap,
+  #section-b ul {
+    grid-column: 2/4;
+  }
+
+  .box,
+  #main-footer div {
+    grid-column: span 2;
+  }
+
+  #section-b ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #section-b ul li {
+    width: 31%;
+  }
+}
 
 /* ====== End Media Queries ======*/
