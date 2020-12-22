@@ -11,6 +11,7 @@
 :root {
   --primary: #666;
   --dark: #333;
+  --black: #000;
   --light: #fff;
   --whisper: #eaeaea;
   --blue: #2690d4;
@@ -145,6 +146,17 @@ p {
 
 /* ====== Start footer ======*/
 
+#main-footer {
+  padding: 2rem;
+  background-color: var(--black);
+  color: var(--light);
+  text-align: center;
+}
+
+#main-footer a {
+  color: var(--blue);
+  text-decoration: none;
+}
 /* ====== End footer ======*/
 
 /* ====== Start Media Queries(Add a Breakpoint) ======*/
