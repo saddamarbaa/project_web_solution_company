@@ -12,6 +12,8 @@
   --primary: #666;
   --dark: #333;
   --light: #fff;
+  --whisper: #eaeaea;
+  --blue: #2690d4;
 }
 
 body {
@@ -53,12 +55,10 @@ p {
 }
 
 .btn:hover {
-  background-color: #eaeaea;
+  background-color: var(--whisper);
   color: var(--dark);
 }
 /*====== End Main Rules ======*/
-
-/* showcase */
 
 /*====== Start Header Showcase ======*/
 
@@ -90,7 +90,58 @@ p {
 }
 /*====== End Header Showcase ======*/
 
-/* ====== End Portfolio ======*/
+/* ====== Start Main Area ======*/
+
+/* section-a */
+
+#section-a {
+  background-color: var(--whisper);
+  color: var(--dark);
+  padding-bottom: 2em;
+  padding: 0 1.5em;
+}
+
+/* section-b */
+
+#section-b {
+  padding: 2em 1em 1em;
+}
+
+#section-b ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#section-b ul li {
+  margin-bottom: 1em;
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.card-content {
+  padding: 1.5em;
+}
+
+/* section-c */
+
+#section-c {
+  color: var(--dark);
+  background-color: var(--light);
+  padding: 2em;
+}
+
+/* section-d */
+
+#section-d .box {
+  color: var(--light);
+  padding: 2em;
+}
+
+#section-d .box:first-child {
+  background-color: var(--blue);
+}
+/* ====== End Main Area ======*/
 
 /* ====== Start footer ======*/
 
