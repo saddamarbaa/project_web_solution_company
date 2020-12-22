@@ -4,20 +4,59 @@
    Author:   Saddam Arbaa
 ========================================== */
 
-/*====== Start Main Rules ======*/
+/*====== Start Main Rules(Core Styles) ======*/
 
 /* CSS Variables */
 
 :root {
-  --primary: #ddd;
+  --primary: #666;
   --dark: #333;
   --light: #fff;
-  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
-/*====== End Main Rules ======*/
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--dark);
+  color: var(--light);
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+}
 
-/*====== Start Navigation ======*/
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--dark);
+  color: var(--light);
+  text-decoration: none;
+  padding: 1em 2em;
+  margin: 0.5em 0;
+  border: 1px solid var(--primary);
+}
+
+.btn:hover {
+  background-color: #eaeaea;
+  color: var(--dark);
+}
+/*====== End Main Rules ======*/
 
 /* showcase */
 
@@ -33,12 +72,12 @@
 
 /* If the screen size is 700px or less */
 
-@media only screen and (max-width: 700px) {
-}
+/* @media only screen and (max-width: 700px) {
+} */
 
 /* If the screen size is 500px or less */
 
-@media (max-width: 500px) {
-}
+/* @media (max-width: 500px) {
+} */
 
 /* ====== End Media Queries ======*/
