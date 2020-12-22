@@ -1,0 +1,44 @@
+/* ==========================================
+   main.css
+   These are the final styles for the project.
+   Author:   Saddam Arbaa
+========================================== */
+
+/*====== Start Main Rules ======*/
+
+/* CSS Variables */
+
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+/*====== End Main Rules ======*/
+
+/*====== Start Navigation ======*/
+
+/* showcase */
+
+/*====== End Top Container ======*/
+
+/* ====== End Portfolio ======*/
+
+/* ====== Start footer ======*/
+
+/* ====== End footer ======*/
+
+/* ====== Start Media Queries(Add a Breakpoint) ======*/
+
+/* If the screen size is 700px or less */
+
+@media only screen and (max-width: 700px) {
+}
+
+/* If the screen size is 500px or less */
+
+@media (max-width: 500px) {
+}
+
+/* ====== End Media Queries ======*/
