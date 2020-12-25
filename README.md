@@ -1,7 +1,6 @@
-# Grid CSS Responsive Website Layout - "Mobile First" Design.
- This is a code repository for the corresponding YouTube video Grid CSS Responsive Website Layout. 
- In this project, we will build a "mobile-first" single page website layout from scratch using the CSS Grid. 
- We will use modern CSS features and techniques including relative em units, media queries, CSS variables, and even a little flex.
+# Saddam Web solution - "Mobile First" Design.
+ a code repository for building my company (Saddam Web solution) from scratch its responsive mobile-first design. 
+ build With HTML5/CSS Grid, CSS Flexbox, Media Queries
 
 Click the link blow to see the [GitHub Pages]: (https://saddamarbaa.github.io/project_web_solution_company/)
 
